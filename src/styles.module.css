@@ -1,0 +1,17 @@
+.main {
+  width: calc(100% - 40px);
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.main > :first-child {
+  margin-bottom: 20px;
+}
+
+.confirmation {
+  margin-left: 20px;
+  font-weight: bold;
+  color: green;
+}
